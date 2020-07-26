@@ -1,0 +1,394 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny816-M U?
+U 1 1 5F1E6009
+P 5750 3800
+AR Path="/5F1E6009" Ref="U?"  Part="1" 
+AR Path="/5F1E51F0/5F1E6009" Ref="U201"  Part="1" 
+AR Path="/5F1FC376/5F1E6009" Ref="U301"  Part="1" 
+AR Path="/5F1FCB7E/5F1E6009" Ref="U401"  Part="1" 
+AR Path="/5F1FCB80/5F1E6009" Ref="U501"  Part="1" 
+AR Path="/5F1FCBA8/5F1E6009" Ref="U601"  Part="1" 
+F 0 "U601" H 5750 4881 50  0000 C CNN
+F 1 "ATtiny816-M" H 5750 4790 50  0000 C CNN
+F 2 "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm" H 5750 3800 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001913A.pdf" H 5750 3800 50  0001 C CNN
+F 4 "ATTINY816-MNRCT-ND" H 5750 3800 50  0001 C CNN "digikey"
+	1    5750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP207
+U 1 1 5F1E6445
+P 6600 3100
+AR Path="/5F1E51F0/5F1E6445" Ref="TP207"  Part="1" 
+AR Path="/5F1FC376/5F1E6445" Ref="TP307"  Part="1" 
+AR Path="/5F1FCB7E/5F1E6445" Ref="TP407"  Part="1" 
+AR Path="/5F1FCB80/5F1E6445" Ref="TP507"  Part="1" 
+AR Path="/5F1FCBA8/5F1E6445" Ref="TP607"  Part="1" 
+F 0 "TP607" V 6554 3288 50  0000 L CNN
+F 1 "TestPoint" V 6645 3288 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 3100 50  0001 C CNN
+F 3 "~" H 6800 3100 50  0001 C CNN
+	1    6600 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP208
+U 1 1 5F1E72C6
+P 6600 3200
+AR Path="/5F1E51F0/5F1E72C6" Ref="TP208"  Part="1" 
+AR Path="/5F1FC376/5F1E72C6" Ref="TP308"  Part="1" 
+AR Path="/5F1FCB7E/5F1E72C6" Ref="TP408"  Part="1" 
+AR Path="/5F1FCB80/5F1E72C6" Ref="TP508"  Part="1" 
+AR Path="/5F1FCBA8/5F1E72C6" Ref="TP608"  Part="1" 
+F 0 "TP608" V 6554 3388 50  0000 L CNN
+F 1 "TestPoint" V 6645 3388 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 3200 50  0001 C CNN
+F 3 "~" H 6800 3200 50  0001 C CNN
+	1    6600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP209
+U 1 1 5F1E75C1
+P 6600 3300
+AR Path="/5F1E51F0/5F1E75C1" Ref="TP209"  Part="1" 
+AR Path="/5F1FC376/5F1E75C1" Ref="TP309"  Part="1" 
+AR Path="/5F1FCB7E/5F1E75C1" Ref="TP409"  Part="1" 
+AR Path="/5F1FCB80/5F1E75C1" Ref="TP509"  Part="1" 
+AR Path="/5F1FCBA8/5F1E75C1" Ref="TP609"  Part="1" 
+F 0 "TP609" V 6554 3488 50  0000 L CNN
+F 1 "TestPoint" V 6645 3488 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 3300 50  0001 C CNN
+F 3 "~" H 6800 3300 50  0001 C CNN
+	1    6600 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP210
+U 1 1 5F1E787D
+P 6600 3400
+AR Path="/5F1E51F0/5F1E787D" Ref="TP210"  Part="1" 
+AR Path="/5F1FC376/5F1E787D" Ref="TP310"  Part="1" 
+AR Path="/5F1FCB7E/5F1E787D" Ref="TP410"  Part="1" 
+AR Path="/5F1FCB80/5F1E787D" Ref="TP510"  Part="1" 
+AR Path="/5F1FCBA8/5F1E787D" Ref="TP610"  Part="1" 
+F 0 "TP610" V 6554 3588 50  0000 L CNN
+F 1 "TestPoint" V 6645 3588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 3400 50  0001 C CNN
+F 3 "~" H 6800 3400 50  0001 C CNN
+	1    6600 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP211
+U 1 1 5F1EAC5D
+P 6600 3500
+AR Path="/5F1E51F0/5F1EAC5D" Ref="TP211"  Part="1" 
+AR Path="/5F1FC376/5F1EAC5D" Ref="TP311"  Part="1" 
+AR Path="/5F1FCB7E/5F1EAC5D" Ref="TP411"  Part="1" 
+AR Path="/5F1FCB80/5F1EAC5D" Ref="TP511"  Part="1" 
+AR Path="/5F1FCBA8/5F1EAC5D" Ref="TP611"  Part="1" 
+F 0 "TP611" V 6554 3688 50  0000 L CNN
+F 1 "TestPoint" V 6645 3688 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 3500 50  0001 C CNN
+F 3 "~" H 6800 3500 50  0001 C CNN
+	1    6600 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP212
+U 1 1 5F1EAC63
+P 6600 3600
+AR Path="/5F1E51F0/5F1EAC63" Ref="TP212"  Part="1" 
+AR Path="/5F1FC376/5F1EAC63" Ref="TP312"  Part="1" 
+AR Path="/5F1FCB7E/5F1EAC63" Ref="TP412"  Part="1" 
+AR Path="/5F1FCB80/5F1EAC63" Ref="TP512"  Part="1" 
+AR Path="/5F1FCBA8/5F1EAC63" Ref="TP612"  Part="1" 
+F 0 "TP612" V 6554 3788 50  0000 L CNN
+F 1 "TestPoint" V 6645 3788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 3600 50  0001 C CNN
+F 3 "~" H 6800 3600 50  0001 C CNN
+	1    6600 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP213
+U 1 1 5F1EAC69
+P 6600 3700
+AR Path="/5F1E51F0/5F1EAC69" Ref="TP213"  Part="1" 
+AR Path="/5F1FC376/5F1EAC69" Ref="TP313"  Part="1" 
+AR Path="/5F1FCB7E/5F1EAC69" Ref="TP413"  Part="1" 
+AR Path="/5F1FCB80/5F1EAC69" Ref="TP513"  Part="1" 
+AR Path="/5F1FCBA8/5F1EAC69" Ref="TP613"  Part="1" 
+F 0 "TP613" V 6554 3888 50  0000 L CNN
+F 1 "TestPoint" V 6645 3888 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 3700 50  0001 C CNN
+F 3 "~" H 6800 3700 50  0001 C CNN
+	1    6600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP214
+U 1 1 5F1EAC6F
+P 6600 3800
+AR Path="/5F1E51F0/5F1EAC6F" Ref="TP214"  Part="1" 
+AR Path="/5F1FC376/5F1EAC6F" Ref="TP314"  Part="1" 
+AR Path="/5F1FCB7E/5F1EAC6F" Ref="TP414"  Part="1" 
+AR Path="/5F1FCB80/5F1EAC6F" Ref="TP514"  Part="1" 
+AR Path="/5F1FCBA8/5F1EAC6F" Ref="TP614"  Part="1" 
+F 0 "TP614" V 6554 3988 50  0000 L CNN
+F 1 "TestPoint" V 6645 3988 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 3800 50  0001 C CNN
+F 3 "~" H 6800 3800 50  0001 C CNN
+	1    6600 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP215
+U 1 1 5F1EBAB9
+P 6600 4000
+AR Path="/5F1E51F0/5F1EBAB9" Ref="TP215"  Part="1" 
+AR Path="/5F1FC376/5F1EBAB9" Ref="TP315"  Part="1" 
+AR Path="/5F1FCB7E/5F1EBAB9" Ref="TP415"  Part="1" 
+AR Path="/5F1FCB80/5F1EBAB9" Ref="TP515"  Part="1" 
+AR Path="/5F1FCBA8/5F1EBAB9" Ref="TP615"  Part="1" 
+F 0 "TP615" V 6554 4188 50  0000 L CNN
+F 1 "TestPoint" V 6645 4188 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 4000 50  0001 C CNN
+F 3 "~" H 6800 4000 50  0001 C CNN
+	1    6600 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP216
+U 1 1 5F1EBABF
+P 6600 4100
+AR Path="/5F1E51F0/5F1EBABF" Ref="TP216"  Part="1" 
+AR Path="/5F1FC376/5F1EBABF" Ref="TP316"  Part="1" 
+AR Path="/5F1FCB7E/5F1EBABF" Ref="TP416"  Part="1" 
+AR Path="/5F1FCB80/5F1EBABF" Ref="TP516"  Part="1" 
+AR Path="/5F1FCBA8/5F1EBABF" Ref="TP616"  Part="1" 
+F 0 "TP616" V 6554 4288 50  0000 L CNN
+F 1 "TestPoint" V 6645 4288 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 4100 50  0001 C CNN
+F 3 "~" H 6800 4100 50  0001 C CNN
+	1    6600 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP217
+U 1 1 5F1EBAC5
+P 6600 4200
+AR Path="/5F1E51F0/5F1EBAC5" Ref="TP217"  Part="1" 
+AR Path="/5F1FC376/5F1EBAC5" Ref="TP317"  Part="1" 
+AR Path="/5F1FCB7E/5F1EBAC5" Ref="TP417"  Part="1" 
+AR Path="/5F1FCB80/5F1EBAC5" Ref="TP517"  Part="1" 
+AR Path="/5F1FCBA8/5F1EBAC5" Ref="TP617"  Part="1" 
+F 0 "TP617" V 6554 4388 50  0000 L CNN
+F 1 "TestPoint" V 6645 4388 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 4200 50  0001 C CNN
+F 3 "~" H 6800 4200 50  0001 C CNN
+	1    6600 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP218
+U 1 1 5F1EBACB
+P 6600 4300
+AR Path="/5F1E51F0/5F1EBACB" Ref="TP218"  Part="1" 
+AR Path="/5F1FC376/5F1EBACB" Ref="TP318"  Part="1" 
+AR Path="/5F1FCB7E/5F1EBACB" Ref="TP418"  Part="1" 
+AR Path="/5F1FCB80/5F1EBACB" Ref="TP518"  Part="1" 
+AR Path="/5F1FCBA8/5F1EBACB" Ref="TP618"  Part="1" 
+F 0 "TP618" V 6554 4488 50  0000 L CNN
+F 1 "TestPoint" V 6645 4488 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 4300 50  0001 C CNN
+F 3 "~" H 6800 4300 50  0001 C CNN
+	1    6600 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP219
+U 1 1 5F1EC587
+P 6600 4400
+AR Path="/5F1E51F0/5F1EC587" Ref="TP219"  Part="1" 
+AR Path="/5F1FC376/5F1EC587" Ref="TP319"  Part="1" 
+AR Path="/5F1FCB7E/5F1EC587" Ref="TP419"  Part="1" 
+AR Path="/5F1FCB80/5F1EC587" Ref="TP519"  Part="1" 
+AR Path="/5F1FCBA8/5F1EC587" Ref="TP619"  Part="1" 
+F 0 "TP619" V 6554 4588 50  0000 L CNN
+F 1 "TestPoint" V 6645 4588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 4400 50  0001 C CNN
+F 3 "~" H 6800 4400 50  0001 C CNN
+	1    6600 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP220
+U 1 1 5F1EC58D
+P 6600 4500
+AR Path="/5F1E51F0/5F1EC58D" Ref="TP220"  Part="1" 
+AR Path="/5F1FC376/5F1EC58D" Ref="TP320"  Part="1" 
+AR Path="/5F1FCB7E/5F1EC58D" Ref="TP420"  Part="1" 
+AR Path="/5F1FCB80/5F1EC58D" Ref="TP520"  Part="1" 
+AR Path="/5F1FCBA8/5F1EC58D" Ref="TP620"  Part="1" 
+F 0 "TP620" V 6554 4688 50  0000 L CNN
+F 1 "TestPoint" V 6645 4688 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 6800 4500 50  0001 C CNN
+F 3 "~" H 6800 4500 50  0001 C CNN
+	1    6600 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP204
+U 1 1 5F1EF369
+P 4950 4300
+AR Path="/5F1E51F0/5F1EF369" Ref="TP204"  Part="1" 
+AR Path="/5F1FC376/5F1EF369" Ref="TP304"  Part="1" 
+AR Path="/5F1FCB7E/5F1EF369" Ref="TP404"  Part="1" 
+AR Path="/5F1FCB80/5F1EF369" Ref="TP504"  Part="1" 
+AR Path="/5F1FCBA8/5F1EF369" Ref="TP604"  Part="1" 
+F 0 "TP604" V 4904 4488 50  0000 L CNN
+F 1 "TestPoint" V 4995 4488 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 5150 4300 50  0001 C CNN
+F 3 "~" H 5150 4300 50  0001 C CNN
+	1    4950 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP203
+U 1 1 5F1EF36F
+P 4950 4200
+AR Path="/5F1E51F0/5F1EF36F" Ref="TP203"  Part="1" 
+AR Path="/5F1FC376/5F1EF36F" Ref="TP303"  Part="1" 
+AR Path="/5F1FCB7E/5F1EF36F" Ref="TP403"  Part="1" 
+AR Path="/5F1FCB80/5F1EF36F" Ref="TP503"  Part="1" 
+AR Path="/5F1FCBA8/5F1EF36F" Ref="TP603"  Part="1" 
+F 0 "TP603" V 4904 4388 50  0000 L CNN
+F 1 "TestPoint" V 4995 4388 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 5150 4200 50  0001 C CNN
+F 3 "~" H 5150 4200 50  0001 C CNN
+	1    4950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP202
+U 1 1 5F1EF375
+P 4950 4100
+AR Path="/5F1E51F0/5F1EF375" Ref="TP202"  Part="1" 
+AR Path="/5F1FC376/5F1EF375" Ref="TP302"  Part="1" 
+AR Path="/5F1FCB7E/5F1EF375" Ref="TP402"  Part="1" 
+AR Path="/5F1FCB80/5F1EF375" Ref="TP502"  Part="1" 
+AR Path="/5F1FCBA8/5F1EF375" Ref="TP602"  Part="1" 
+F 0 "TP602" V 4904 4288 50  0000 L CNN
+F 1 "TestPoint" V 4995 4288 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 5150 4100 50  0001 C CNN
+F 3 "~" H 5150 4100 50  0001 C CNN
+	1    4950 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP201
+U 1 1 5F1EF37B
+P 4950 4000
+AR Path="/5F1E51F0/5F1EF37B" Ref="TP201"  Part="1" 
+AR Path="/5F1FC376/5F1EF37B" Ref="TP301"  Part="1" 
+AR Path="/5F1FCB7E/5F1EF37B" Ref="TP401"  Part="1" 
+AR Path="/5F1FCB80/5F1EF37B" Ref="TP501"  Part="1" 
+AR Path="/5F1FCBA8/5F1EF37B" Ref="TP601"  Part="1" 
+F 0 "TP601" V 4904 4188 50  0000 L CNN
+F 1 "TestPoint" V 4995 4188 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 5150 4000 50  0001 C CNN
+F 3 "~" H 5150 4000 50  0001 C CNN
+	1    4950 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP206
+U 1 1 5F1F1772
+P 5750 4800
+AR Path="/5F1E51F0/5F1F1772" Ref="TP206"  Part="1" 
+AR Path="/5F1FC376/5F1F1772" Ref="TP306"  Part="1" 
+AR Path="/5F1FCB7E/5F1F1772" Ref="TP406"  Part="1" 
+AR Path="/5F1FCB80/5F1F1772" Ref="TP506"  Part="1" 
+AR Path="/5F1FCBA8/5F1F1772" Ref="TP606"  Part="1" 
+F 0 "TP606" V 5704 4988 50  0000 L CNN
+F 1 "TestPoint" V 5795 4988 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 5950 4800 50  0001 C CNN
+F 3 "~" H 5950 4800 50  0001 C CNN
+	1    5750 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP205
+U 1 1 5F1F2E00
+P 5750 2700
+AR Path="/5F1E51F0/5F1F2E00" Ref="TP205"  Part="1" 
+AR Path="/5F1FC376/5F1F2E00" Ref="TP305"  Part="1" 
+AR Path="/5F1FCB7E/5F1F2E00" Ref="TP405"  Part="1" 
+AR Path="/5F1FCB80/5F1F2E00" Ref="TP505"  Part="1" 
+AR Path="/5F1FCBA8/5F1F2E00" Ref="TP605"  Part="1" 
+F 0 "TP605" V 5704 2888 50  0000 L CNN
+F 1 "TestPoint" V 5795 2888 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 5950 2700 50  0001 C CNN
+F 3 "~" H 5950 2700 50  0001 C CNN
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3100 6600 3100
+Wire Wire Line
+	6600 3200 6350 3200
+Wire Wire Line
+	6350 3300 6600 3300
+Wire Wire Line
+	6600 3400 6350 3400
+Wire Wire Line
+	6350 3500 6600 3500
+Wire Wire Line
+	6600 3600 6350 3600
+Wire Wire Line
+	6350 3700 6600 3700
+Wire Wire Line
+	6600 3800 6350 3800
+Wire Wire Line
+	6350 4000 6600 4000
+Wire Wire Line
+	6600 4100 6350 4100
+Wire Wire Line
+	6350 4200 6600 4200
+Wire Wire Line
+	6600 4300 6350 4300
+Wire Wire Line
+	6350 4400 6600 4400
+Wire Wire Line
+	6600 4500 6350 4500
+Wire Wire Line
+	5750 4800 5750 4700
+Wire Wire Line
+	4950 4300 5150 4300
+Wire Wire Line
+	5150 4200 4950 4200
+Wire Wire Line
+	4950 4100 5150 4100
+Wire Wire Line
+	5150 4000 4950 4000
+Wire Wire Line
+	5750 2700 5750 2900
+$EndSCHEMATC
